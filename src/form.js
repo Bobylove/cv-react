@@ -6,29 +6,34 @@ class Formulaire extends Component {
     return (
 
       <div className="formulaire" id="contactMail">
-      <h2 className="titleContact"> Contacts </h2>
+        <h2 className="titleContact "> Contacts </h2>
+        <div className="ui centered ">
+            <div className="ui equal width form ">
+              <div className="fields" id="nameInput">
+              <div className="field">
+                      <label><h4>Nom</h4></label>
 
-      <div className="ui input" id="nameInput">
-              <label>Nom</label>
-              <input placeholder="Jean" type="text" className="inputInfos"/>
-      </div>
+                      <input placeholder="Jean" type="text" className="inputInfos"/>
+                      <label><h4>Prénom</h4></label>
+
+                      <input placeholder="Dupont" type="text" className="inputInfos"/>
+                      <label><h4>Mail</h4></label>
+
+                      <input placeholder="dupont@gmail.com" type="text"/>
+              </div>
+              <div className="field">
+                      <label>Text</label>
+                      <textarea></textarea>
+                      <button className="ui primary button">Envoyer mail</button>
+                      </div>
+              </div>
+            </div>
+            </div>
             
-            <div className="ui input" id="lastInput">
-              <label>Prénom</label>
-              <input placeholder="Dupont" type="text" className="inputInfos"/>
-            </div>
+      
 
-            <div className="ui input" id="mailInput">
-             <label>Mail</label>
-             <input placeholder="dupont@gmail.com" type="text"/>
-            </div>
-              <div className="area">
-              <label>message</label>
-              <textarea></textarea>
-          
-                <button className="ui primary button">Envoyer mail</button>
-           
-      </div>
+
+
       <div className="footerIcones">
       <a href="#"><i className="facebook icon huge"></i></a>
       <a href="#"><i className="github icon huge"></i></a>
@@ -39,10 +44,10 @@ class Formulaire extends Component {
 
       </div>
       );
-    }
   }
+}
 
-  export default Formulaire;
+export default Formulaire;
 
 
 

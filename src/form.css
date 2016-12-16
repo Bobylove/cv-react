@@ -9,7 +9,13 @@
 	
 
 }
+.centered {
+	margin-right: 10em;
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
 
+}
 .footerIcones {
 	padding-top: 3em;
 	background-color: #677273;
@@ -22,18 +28,10 @@
 
 }
 .area {
-	width: 60%;
+	margin: 0 auto;
+	width: 50%;
 	padding-bottom: 2em;
 	padding-top: 2em;
-}
-#nameInput {
-margin-left: 10em;
-}
-#mailInput {
-margin-left: 10em;
-}
-#lastInput {
-margin-left: 10em;
 }
 .titleContact {
 	text-align: center;
