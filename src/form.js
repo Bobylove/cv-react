@@ -6,40 +6,43 @@ class Formulaire extends Component {
     return (
 
       <div className="formulaire" id="contactMail">
-        <div className="ui normal form">
-          <div className="two fields">
-            <div className="field inputInf">
+      <h2 className="titleContact"> Contacts </h2>
+
+      <div className="ui input" id="nameInput">
               <label>Nom</label>
-                <input placeholder="Jean" type="text" className="inputInfos"/>
-            <label>Mail</label>
-            <input placeholder="dupont@gmail.com" type="text"/>
-            </div>
-          <div className="field inputInf">
+              <input placeholder="Jean" type="text" className="inputInfos"/>
+      </div>
+            
+            <div className="ui input" id="lastInput">
               <label>Prénom</label>
               <input placeholder="Dupont" type="text" className="inputInfos"/>
-        </div>
-       </div>
-      </div>
-      <div className="ui form">
-          <div className="field">
-             <label>message</label>
+            </div>
+
+            <div className="ui input" id="mailInput">
+             <label>Mail</label>
+             <input placeholder="dupont@gmail.com" type="text"/>
+            </div>
+              <div className="area">
+              <label>message</label>
               <textarea></textarea>
-                </div>
-              <div className="ui submit button">Envoyer</div>
-             </div>
-             <div className="footerIcones">
-             <a href="#"><i className="facebook icon huge"></i></a>
-             <i className="github icon huge"></i>
-             <i className="twitter icon huge"></i>
-             <i className="linkedin icon huge"></i>
-             </div>
+          
+                <button className="ui primary button">Envoyer mail</button>
+           
+      </div>
+      <div className="footerIcones">
+      <a href="#"><i className="facebook icon huge"></i></a>
+      <a href="#"><i className="github icon huge"></i></a>
+      <a href="#"><i className="twitter icon huge"></i></a>
+      <a href="#"><i className="linkedin icon huge"></i></a>
+      </div>
 
-          </div>
+
+      </div>
       );
+    }
   }
-}
 
-export default Formulaire;
+  export default Formulaire;
 
 
 

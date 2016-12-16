@@ -1,20 +1,12 @@
-.formulaire {
-	
 
-	width:60%;
-	margin: 0 auto;
-	padding-top: 3em;
-	
-
-
-}
-.inputInf {
-	width: 30%;
-}
 #contactMail {
+	height: 42em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin: 0 auto;
 	width: 100%;
 	background-color: #f0f0f0;
-	position:static;
+	
 
 }
 
@@ -25,10 +17,26 @@
 	width: 100%;
 	height: 10em;
 	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
 
 }
-.field {
-	margin: 0 auto;
+.area {
+	width: 60%;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+#nameInput {
+margin-left: 10em;
+}
+#mailInput {
+margin-left: 10em;
+}
+#lastInput {
+margin-left: 10em;
+}
+.titleContact {
 	text-align: center;
-	width: 40%;
+	font-size: 20px;
+	padding-bottom: 2em;
 }
