@@ -24,7 +24,7 @@ class Formulaire extends Component {
               <div className="field">
                       <label>Text</label>
                       <textarea></textarea>
-                      <button className="ui primary button">Envoyer mail</button>
+                      <button className="ui teal button">Envoyer mail</button>
                       </div>
               </div>
             </div>

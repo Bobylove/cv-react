@@ -21,12 +21,12 @@ body {
 .titre {
 	width: 100%;
 	text-align: center;
-	height: 12em;
+	height: 9em;
 	background-color: #677273;
 }
 .titreHead {
-	padding-top: 1em;
-	font-size: 3em;
+	/*padding-top: 1em;*/
+	font-size: 4em;
 	color: white;
 }
 .titreHead2 {
