@@ -4,28 +4,25 @@ import './exp.css';
 class Exp extends Component {
 	render() {
 		return (
-			<div className="exp">
+			<div className="exp" id="exp">
 			<h2 className="skills" >Compétences</h2>
-			<h6>test soustitres </h6>
-
+			<h6 className="skillSousTitre">test soustitres </h6>
+			<p>Diagnostiquer des dysfonctionements , Assuer une maintenance informatique, prendre des appels, </p>
 			<div className="skill1"> HTML / CSS
-
-
-
 			</div>
-			<div className="skill2"> Bootstrap / JQuery
+			<div className="skill2"> Bootstrap 
 			</div>
-			<div className="skill3"> RWD / UX / UI
+			<div className="skill3"> Javascript
 			</div>
-			<div className="skill4"> Photoshop
+			<div className="skill4"> React
 			</div>
-			<div className="skill5">
+			<div className="skill5"> Semantic
 			</div>
-			<div className="skill6">
+			<div className="skill6"> NodeJS 
 			</div>
-			<div className="skill7">
+			<div className="skill7"> Frameworks
 			</div>
-			<div className="skill8">
+			<div className="skill8"> Linux Debian
 			</div>
 
 

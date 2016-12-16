@@ -12,12 +12,11 @@ class App extends Component {
 
       </div>
       <div className="App-header">
-      <div className="ui six item menu" id="stickyBar">
+      <div className="ui five item menu" id="stickyBar">
       <a className="item" href="#aboutLink">À propos</a>
+      <a className="item" href="#exp">Compétences</a>
+      <a className="item" href="#formation">Formations</a>
       <a className="item">Expérience professionelle</a>
-      <a className="item">Formations</a>
-      <a className="item">Compétences</a>
-      <a className="item">Loisirs</a>
       <a className="item" href="#contactMail">Contacts</a>
       </div>
       
