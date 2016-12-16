@@ -1,0 +1,25 @@
+.titre {
+	width: 100%;
+	text-align: center;
+	height: 15em;
+	background-color: #677273;
+	position: -webkit-sticky;  
+	position: sticky;
+	top: 0;
+}
+.titreHead {
+	padding-top: 1em;
+	font-size: 3em;
+	color: white;
+}
+.titreHead2 {
+	color: white;
+}
+.imgSlider {
+	background-image: url(/slide.jpg) ;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 60em;
+	margin-top: 5em;
+}
