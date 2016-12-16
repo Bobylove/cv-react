@@ -14,7 +14,7 @@ class Exp extends Component {
 			</div>
 			<div className="skill3"> Javascript
 			</div>
-			<div className="skill4"> React
+			<div className="skill4"> <img src="favicon.ico" alt="react"/>
 			</div>
 			<div className="skill5"> Semantic
 			</div>
