@@ -13,11 +13,11 @@ class App extends Component {
       </div>
       <div className="App-header">
       <div className="ui five item menu" id="stickyBar">
-      <a className="item" href="#aboutLink">À propos</a>
-      <a className="item" href="#exp">Compétences</a>
-      <a className="item" href="#formation">Formations</a>
-      <a className="item">Expérience professionelle</a>
-      <a className="item" href="#contactMail">Contacts</a>
+      <a id="prev prev1" className="item" href="#aboutLink">À propos</a>
+      <a id="prev prev2" className="item" href="#exp">Compétences</a>
+      <a id="prev prev3" className="item" href="#formation">Formations</a>
+      <a id="prev prev4" className="item">Expérience professionelle</a>
+      <a id="prev prev5" className="item" href="#contactMail">Contacts</a>
       </div>
       
       </div>
